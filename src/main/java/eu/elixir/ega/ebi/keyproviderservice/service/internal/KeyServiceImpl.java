@@ -44,7 +44,8 @@ public class KeyServiceImpl implements KeyService {
             // TODO
             // Get Key for File ID from source
             
-            key = "";
+            // Until then: Use the same key as a patch
+            key = myCipherConfig.getAESKey("AES");
         }
         
         return key;
