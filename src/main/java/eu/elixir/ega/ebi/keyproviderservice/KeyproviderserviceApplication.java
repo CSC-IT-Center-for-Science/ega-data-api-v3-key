@@ -47,4 +47,5 @@ public class KeyproviderserviceApplication {
                     .paths(PathSelectors.any())
                     .build()
                     .pathMapping("/");
-        }}
+        }
+}
