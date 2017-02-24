@@ -38,7 +38,7 @@ public class KeyproviderserviceApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(KeyproviderserviceApplication.class, args);
 	}
-        
+
         @Bean
         public Docket swaggerSettings() {
             return new Docket(DocumentationType.SWAGGER_2)
@@ -47,5 +47,4 @@ public class KeyproviderserviceApplication {
                     .paths(PathSelectors.any())
                     .build()
                     .pathMapping("/");
-        }
-}
+        }}
